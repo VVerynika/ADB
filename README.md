@@ -25,7 +25,7 @@
  4. Сделать скриншот запущенного приложения reminder и скопировать на компьютер.
 
   ``` 
-  .\adb screencap /внутренний накопитель/DCIM/Screenshots/reminder.png
+  .\adb shell screencap /внутренний накопитель/DCIM/Screenshots/reminder.png
 	.\adb pull /внутренний накопитель/DCIM/Screenshots/reminder.png reminder.png
   ```
  5. Вывести в консоль логи приложения reminder
